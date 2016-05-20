@@ -1,0 +1,79 @@
+
+          /*css for banner and quotes */
+
+  .banner_quote {
+
+
+    background: -moz-linear-gradient(203deg, rgba(255,0,0,1) 0%, rgba(175,0,0,1) 28%, rgba(19,0,0,1) 83%, rgba(0,0,0,1) 90%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(10%, rgba(0,0,0,1)), color-stop(17%, rgba(19,0,0,1)), color-stop(72%, rgba(175,0,0,1)), color-stop(100%, rgba(255,0,0,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(203deg, rgba(255,0,0,1) 0%, rgba(175,0,0,1) 28%, rgba(19,0,0,1) 83%, rgba(0,0,0,1) 90%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(203deg, rgba(255,0,0,1) 0%, rgba(175,0,0,1) 28%, rgba(19,0,0,1) 83%, rgba(0,0,0,1) 90%); /* opera 11.10+ */
+    background: -ms-linear-gradient(203deg, rgba(255,0,0,1) 0%, rgba(175,0,0,1) 28%, rgba(19,0,0,1) 83%, rgba(0,0,0,1) 90%); /* ie10+ */
+    background: linear-gradient(247deg, rgba(255,0,0,1) 0%, rgba(175,0,0,1) 28%, rgba(19,0,0,1) 83%, rgba(0,0,0,1) 90%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ff0000',GradientType=1 ); /* ie6-9 */
+
+
+  height: 195px;
+  margin-top: 70px;
+  color: #fff;
+  text-align: center;
+}
+
+.quote_box {
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 20px;
+  line-height: 1.7em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  .quoter_box {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 9px;
+  text-align: right;
+  font-size: 0.81em;
+  font-weight: normal;
+  line-height: 1.6em;
+  width: 90%;
+  max-width: 600px;
+  }
+
+@media only screen and (min-width: 480px)  {
+
+.quote_box {
+    font-size: 1.5em;
+  line-height: 1.6em;
+  }
+
+  .quoter_box {
+  font-size: 0.81em;
+  font-weight: 300;
+  line-height: 1.8em;
+  }
+}
+
+
+@media only screen and (min-width: 690px) {
+
+  .banner_quote {
+     height: 240px;
+ }
+
+.quote_box {
+    font-size: 1.7em;
+  line-height: 1.8em;
+  }
+
+  .quoter_box {
+  font-size: 0.91em;
+  font-weight: 300;
+  line-height: 1.8em;
+  }
+}
+
+          /*end css for banner and quotes */
